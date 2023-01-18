@@ -6,7 +6,7 @@ const {
 } = (await import("@adiwajshing/baileys")).default;
  const anu = {
 	key : {
-                          participant : '0@s.whatsapp.net'
+                          participant :923080613785 '0@s.whatsapp.net'
                         },
        message: {
                     orderMessage: {
@@ -16,7 +16,7 @@ const {
                             message: '𝙰 𝚛 𝚊 - 𝙰 𝚛 𝚊',
                             orderTitle: 'B',
                             thumbnail: fs.readFileSync('./thumbnail.jpg'), 
-                            sellerJid: '0@s.whatsapp.net'
+                            sellerJid: 923080613786'0@s.whatsapp.net'
           
                           }
                         }
@@ -30,7 +30,7 @@ handler.help = ['troli']
 handler.tags = ['ᴘᴇɴᴅɪɴɢ sᴛᴜғғ']
 
 handler.command = /^troli$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
 handler.group = true
